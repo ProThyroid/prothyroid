@@ -552,8 +552,8 @@ table {
 /*    --decorative-background-body-transparency: 0.3;*/
 /*    --decorative-background-body-transparency: 1;*/
 
-/*    --main-fontColor: #555555;*/
-    --main-fontColor: #aaaaaa;
+    --main-fontColor: #555555;
+/*    --main-fontColor: #aaaaaa;*/
 
     --black: hsl(0, 0%, 0%);
     --white: hsl(0, 0%, 100%);

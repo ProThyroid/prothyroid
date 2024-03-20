@@ -95,7 +95,8 @@ html::-webkit-scrollbar {
 
 /*    filter: chrome(100%);*/
 /*    backdrop-filter: blur(10px);*/
-    backdrop-filter: blur(0.2em);
+
+/*    backdrop-filter: blur(0.2em);*/
 
 } }
 
@@ -179,7 +180,7 @@ body {
 
 
 .container {
-/*    background-color: hsl(var(--decorative-background-container), var(--decorative-background-container-transparency));*/
+    background-color: hsl(var(--decorative-background-container), var(--decorative-background-container-transparency));
 }
 
 
