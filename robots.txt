@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /assets/decorative/
+Disallow: /notforbots/
+
+Sitemap: https://www.prothyroid.org/sitemap.xml
