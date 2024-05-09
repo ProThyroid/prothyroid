@@ -1393,7 +1393,7 @@ nav.primary-nav li:nth-child(even) .zippy .zippy-content {
 
 
 
-.preview-mode li.apreview .article {
+.preview-mode .apreview .article {
   /*display: flex;*/
   display: grid !important;
 }
@@ -1451,13 +1451,7 @@ nav.primary-nav li:nth-child(even) .zippy .zippy-content {
 
 
 
-
-
-main > .article {
-  margin-top:     1em;
-}
-
-li.apreview > .article {
+.apreview .article {
   margin-top:     0.5em;
 }
 

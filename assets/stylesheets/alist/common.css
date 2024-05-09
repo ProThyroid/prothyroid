@@ -240,17 +240,17 @@ header > .preview-switch.on:hover::before {
 
 
 ul.alist.preview-mode
-         > li.apreview:not(:first-child) {
+         > .apreview:not(:first-child) {
     margin-top: 3em;
 }
 
 ul.alist:not(.preview-mode)
-         > li.apreview:not(:first-child) {
+         > .apreview:not(:first-child) {
     margin-top: 1em;
 }
 
 
-ul.alist > li.apreview:last-child {
+ul.alist > .apreview:last-child {
     margin-bottom:      0;
 }
 
@@ -265,7 +265,7 @@ ul.alist > li.apreview:last-child {
 
 
 ul.alist.preview-mode
-         > li.apreview > .aheader h2 {
+         > .apreview > .aheader h2 {
     /*text-align: center;*/
 
     /*position: relative;*/
@@ -273,7 +273,7 @@ ul.alist.preview-mode
 }
 
 ul.alist:not(.preview-mode)
-         > li.apreview > .aheader a:has(h2) {
+         > .apreview > .aheader a:has(h2) {
     /*align-self: flex-start;*/
 }
 
@@ -290,8 +290,8 @@ ul.alist:not(.preview-mode)
 
 
 ul.alist:not(.preview-mode)
-         > li.apreview > .aheader > .bg-elem,
-ul.alist > li.apreview > .aheader > .bg-elem[style*='contained'] {
+         > .apreview > .aheader > .bg-elem,
+ul.alist > .apreview > .aheader > .bg-elem[style*='contained'] {
     background-image: none      !important;
     opacity:        1           !important;
     /*opacity: 0.2 !important;*/
